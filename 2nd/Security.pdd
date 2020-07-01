@@ -1,0 +1,502 @@
+#TYPE Selected.System.Diagnostics.EventLogEntry
+"EventID"|"TimeWritten"|"Message"
+"4672"|"2020. 06. 30. 11:06:08"|"Speci?lis jogosults?gok hozz?rendelve az ?j bejelentkez?shez.
+
+T?rgy:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Jogosults?gok:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"4624"|"2020. 06. 30. 11:06:08"|"Egy fi?k sikeresen bejelentkezett.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Bejelentkez?s adatai:
+	Bejelentkez?s t?pusa:			5
+	Korl?tozott rendszergazdai m?d:	-
+	Virtu?lis fi?k:		%%1843
+	Emelt szint? jogkivonat:		%%1842
+
+Megszem?lyes?t?si szint:		%%1833
+
+?j bejelentkez?s:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+	Kapcsolt bejelentkez?s azonos?t?ja:		0x0
+	H?l?zati fi?k neve:	-
+	H?l?zati fi?k tartom?nya:	-
+	Bejelentkez?s GUID azonos?t?ja:		{00000000-0000-0000-0000-000000000000}
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x308
+	Folyamat neve:		C:\Windows\System32\services.exe
+
+H?l?zati adatok:
+	Munka?llom?s neve:	-
+	Forr?s h?l?zati c?m:	-
+	Forr?sport:		-
+
+R?szletes hiteles?t?si adatok:
+	Bejelentkez?si folyamat:		Advapi  
+	Hiteles?t?si csomag:	Negotiate
+	K?ztes szolg?ltat?sok:	-
+	Csomagn?v (csak NTLM):	-
+	Kulcshossz:		0
+
+Ez az esem?ny a bejelentkez?si munkamenet l?trehoz?sa alkalm?val gener?l?dik. Az el?rt sz?m?t?g?pen j?n l?tre.
+
+Az ?rintett mez?k jelzik a helyi rendszernek azt a fi?kj?t, amely a bejelentkez?st k?rte. Ez leggyakrabban egy szolg?ltat?s, p?ld?ul a Kiszolg?l? szolg?ltat?s, vagy egy helyi folyamat, p?ld?ul a Winlogon.exe vagy a Services.exe.
+
+A Bejelentkez?s t?pusa mez? azt jelzi, hogy milyen bejelentkez?sre ker?lt sor. A leggyakoribb t?pus a 2-es (interakt?v) ?s a 3-as (h?l?zati).
+
+Az ?j bejelentkez?s mez?k azt a fi?kot jelzik, amelynek l?trej?tt az ?j bejelentkez?s, m?s sz?val az a fi?k, amely bejelentkezett.
+
+A H?l?zat mez?k jelzik, hogy honnan ered a t?voli bejelentkez?si k?r?s. A Munka?llom?s neve nem mindig ?rhet? el, ?s egyes esetekben ?resen maradhat.
+
+A Megszem?lyes?t?si szint mez? azt jelzi, hogy milyen m?rt?kben jogosultak a bejelentkez?si munkamenet folyamatai a megszem?lyes?t?sre.
+
+A Hiteles?t?si adatok mez?k r?szletes inform?ci?kkal szolg?lnak az adott bejelentkez?si k?r?sr?l.
+	- A Bejelentkez?si GUID egyedi azonos?t?, amelynek alapj?n ?sszekapcsolhat? az esem?ny egy KDC-esem?nnyel.
+	- A K?ztes szolg?ltat?sok arra utalnak, hogy milyen k?ztes szolg?ltat?sok vettek r?szt ebben a bejelentkez?si k?r?sben.
+	- A Csomagn?v azt jelzi, hogy az NTLM protokollok melyik alprotokollja volt haszn?latban.
+	- A Kulcshossz a gener?lt munkamenetkulcs hossz?ra utal. Ha nem ker?lt sor munkamenetkulcs-k?r?sre, 0 az ?rt?ke."
+"4672"|"2020. 06. 30. 11:06:08"|"Speci?lis jogosults?gok hozz?rendelve az ?j bejelentkez?shez.
+
+T?rgy:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Jogosults?gok:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"4624"|"2020. 06. 30. 11:06:08"|"Egy fi?k sikeresen bejelentkezett.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Bejelentkez?s adatai:
+	Bejelentkez?s t?pusa:			5
+	Korl?tozott rendszergazdai m?d:	-
+	Virtu?lis fi?k:		%%1843
+	Emelt szint? jogkivonat:		%%1842
+
+Megszem?lyes?t?si szint:		%%1833
+
+?j bejelentkez?s:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+	Kapcsolt bejelentkez?s azonos?t?ja:		0x0
+	H?l?zati fi?k neve:	-
+	H?l?zati fi?k tartom?nya:	-
+	Bejelentkez?s GUID azonos?t?ja:		{00000000-0000-0000-0000-000000000000}
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x308
+	Folyamat neve:		C:\Windows\System32\services.exe
+
+H?l?zati adatok:
+	Munka?llom?s neve:	-
+	Forr?s h?l?zati c?m:	-
+	Forr?sport:		-
+
+R?szletes hiteles?t?si adatok:
+	Bejelentkez?si folyamat:		Advapi  
+	Hiteles?t?si csomag:	Negotiate
+	K?ztes szolg?ltat?sok:	-
+	Csomagn?v (csak NTLM):	-
+	Kulcshossz:		0
+
+Ez az esem?ny a bejelentkez?si munkamenet l?trehoz?sa alkalm?val gener?l?dik. Az el?rt sz?m?t?g?pen j?n l?tre.
+
+Az ?rintett mez?k jelzik a helyi rendszernek azt a fi?kj?t, amely a bejelentkez?st k?rte. Ez leggyakrabban egy szolg?ltat?s, p?ld?ul a Kiszolg?l? szolg?ltat?s, vagy egy helyi folyamat, p?ld?ul a Winlogon.exe vagy a Services.exe.
+
+A Bejelentkez?s t?pusa mez? azt jelzi, hogy milyen bejelentkez?sre ker?lt sor. A leggyakoribb t?pus a 2-es (interakt?v) ?s a 3-as (h?l?zati).
+
+Az ?j bejelentkez?s mez?k azt a fi?kot jelzik, amelynek l?trej?tt az ?j bejelentkez?s, m?s sz?val az a fi?k, amely bejelentkezett.
+
+A H?l?zat mez?k jelzik, hogy honnan ered a t?voli bejelentkez?si k?r?s. A Munka?llom?s neve nem mindig ?rhet? el, ?s egyes esetekben ?resen maradhat.
+
+A Megszem?lyes?t?si szint mez? azt jelzi, hogy milyen m?rt?kben jogosultak a bejelentkez?si munkamenet folyamatai a megszem?lyes?t?sre.
+
+A Hiteles?t?si adatok mez?k r?szletes inform?ci?kkal szolg?lnak az adott bejelentkez?si k?r?sr?l.
+	- A Bejelentkez?si GUID egyedi azonos?t?, amelynek alapj?n ?sszekapcsolhat? az esem?ny egy KDC-esem?nnyel.
+	- A K?ztes szolg?ltat?sok arra utalnak, hogy milyen k?ztes szolg?ltat?sok vettek r?szt ebben a bejelentkez?si k?r?sben.
+	- A Csomagn?v azt jelzi, hogy az NTLM protokollok melyik alprotokollja volt haszn?latban.
+	- A Kulcshossz a gener?lt munkamenetkulcs hossz?ra utal. Ha nem ker?lt sor munkamenetkulcs-k?r?sre, 0 az ?rt?ke."
+"4798"|"2020. 06. 30. 11:03:39"|"A felhaszn?l? helyi csoporttags?g?nak enumer?l?sa megt?rt?nt.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Felhaszn?l?:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?k tartom?nya:		DESKTOP-QTDVJG2
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x1f00
+	Folyamat neve:		C:\Windows\System32\taskhostw.exe"
+"5382"|"2020. 06. 30. 11:03:39"|"Megt?rt?nt a t?rol?ban lev? hiteles?t? adatok olvas?sa.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?k neve:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? beolvas a t?rol?ban t?rolt hiteles?t? adatokat."
+"5379"|"2020. 06. 30. 11:03:39"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:38"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:38"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:38"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:38"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:38"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"4672"|"2020. 06. 30. 11:03:23"|"Speci?lis jogosults?gok hozz?rendelve az ?j bejelentkez?shez.
+
+T?rgy:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Jogosults?gok:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"4624"|"2020. 06. 30. 11:03:23"|"Egy fi?k sikeresen bejelentkezett.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Bejelentkez?s adatai:
+	Bejelentkez?s t?pusa:			5
+	Korl?tozott rendszergazdai m?d:	-
+	Virtu?lis fi?k:		%%1843
+	Emelt szint? jogkivonat:		%%1842
+
+Megszem?lyes?t?si szint:		%%1833
+
+?j bejelentkez?s:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+	Kapcsolt bejelentkez?s azonos?t?ja:		0x0
+	H?l?zati fi?k neve:	-
+	H?l?zati fi?k tartom?nya:	-
+	Bejelentkez?s GUID azonos?t?ja:		{00000000-0000-0000-0000-000000000000}
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x308
+	Folyamat neve:		C:\Windows\System32\services.exe
+
+H?l?zati adatok:
+	Munka?llom?s neve:	-
+	Forr?s h?l?zati c?m:	-
+	Forr?sport:		-
+
+R?szletes hiteles?t?si adatok:
+	Bejelentkez?si folyamat:		Advapi  
+	Hiteles?t?si csomag:	Negotiate
+	K?ztes szolg?ltat?sok:	-
+	Csomagn?v (csak NTLM):	-
+	Kulcshossz:		0
+
+Ez az esem?ny a bejelentkez?si munkamenet l?trehoz?sa alkalm?val gener?l?dik. Az el?rt sz?m?t?g?pen j?n l?tre.
+
+Az ?rintett mez?k jelzik a helyi rendszernek azt a fi?kj?t, amely a bejelentkez?st k?rte. Ez leggyakrabban egy szolg?ltat?s, p?ld?ul a Kiszolg?l? szolg?ltat?s, vagy egy helyi folyamat, p?ld?ul a Winlogon.exe vagy a Services.exe.
+
+A Bejelentkez?s t?pusa mez? azt jelzi, hogy milyen bejelentkez?sre ker?lt sor. A leggyakoribb t?pus a 2-es (interakt?v) ?s a 3-as (h?l?zati).
+
+Az ?j bejelentkez?s mez?k azt a fi?kot jelzik, amelynek l?trej?tt az ?j bejelentkez?s, m?s sz?val az a fi?k, amely bejelentkezett.
+
+A H?l?zat mez?k jelzik, hogy honnan ered a t?voli bejelentkez?si k?r?s. A Munka?llom?s neve nem mindig ?rhet? el, ?s egyes esetekben ?resen maradhat.
+
+A Megszem?lyes?t?si szint mez? azt jelzi, hogy milyen m?rt?kben jogosultak a bejelentkez?si munkamenet folyamatai a megszem?lyes?t?sre.
+
+A Hiteles?t?si adatok mez?k r?szletes inform?ci?kkal szolg?lnak az adott bejelentkez?si k?r?sr?l.
+	- A Bejelentkez?si GUID egyedi azonos?t?, amelynek alapj?n ?sszekapcsolhat? az esem?ny egy KDC-esem?nnyel.
+	- A K?ztes szolg?ltat?sok arra utalnak, hogy milyen k?ztes szolg?ltat?sok vettek r?szt ebben a bejelentkez?si k?r?sben.
+	- A Csomagn?v azt jelzi, hogy az NTLM protokollok melyik alprotokollja volt haszn?latban.
+	- A Kulcshossz a gener?lt munkamenetkulcs hossz?ra utal. Ha nem ker?lt sor munkamenetkulcs-k?r?sre, 0 az ?rt?ke."
+"4672"|"2020. 06. 30. 11:03:23"|"Speci?lis jogosults?gok hozz?rendelve az ?j bejelentkez?shez.
+
+T?rgy:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Jogosults?gok:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"4624"|"2020. 06. 30. 11:03:23"|"Egy fi?k sikeresen bejelentkezett.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Bejelentkez?s adatai:
+	Bejelentkez?s t?pusa:			5
+	Korl?tozott rendszergazdai m?d:	-
+	Virtu?lis fi?k:		%%1843
+	Emelt szint? jogkivonat:		%%1842
+
+Megszem?lyes?t?si szint:		%%1833
+
+?j bejelentkez?s:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+	Kapcsolt bejelentkez?s azonos?t?ja:		0x0
+	H?l?zati fi?k neve:	-
+	H?l?zati fi?k tartom?nya:	-
+	Bejelentkez?s GUID azonos?t?ja:		{00000000-0000-0000-0000-000000000000}
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x308
+	Folyamat neve:		C:\Windows\System32\services.exe
+
+H?l?zati adatok:
+	Munka?llom?s neve:	-
+	Forr?s h?l?zati c?m:	-
+	Forr?sport:		-
+
+R?szletes hiteles?t?si adatok:
+	Bejelentkez?si folyamat:		Advapi  
+	Hiteles?t?si csomag:	Negotiate
+	K?ztes szolg?ltat?sok:	-
+	Csomagn?v (csak NTLM):	-
+	Kulcshossz:		0
+
+Ez az esem?ny a bejelentkez?si munkamenet l?trehoz?sa alkalm?val gener?l?dik. Az el?rt sz?m?t?g?pen j?n l?tre.
+
+Az ?rintett mez?k jelzik a helyi rendszernek azt a fi?kj?t, amely a bejelentkez?st k?rte. Ez leggyakrabban egy szolg?ltat?s, p?ld?ul a Kiszolg?l? szolg?ltat?s, vagy egy helyi folyamat, p?ld?ul a Winlogon.exe vagy a Services.exe.
+
+A Bejelentkez?s t?pusa mez? azt jelzi, hogy milyen bejelentkez?sre ker?lt sor. A leggyakoribb t?pus a 2-es (interakt?v) ?s a 3-as (h?l?zati).
+
+Az ?j bejelentkez?s mez?k azt a fi?kot jelzik, amelynek l?trej?tt az ?j bejelentkez?s, m?s sz?val az a fi?k, amely bejelentkezett.
+
+A H?l?zat mez?k jelzik, hogy honnan ered a t?voli bejelentkez?si k?r?s. A Munka?llom?s neve nem mindig ?rhet? el, ?s egyes esetekben ?resen maradhat.
+
+A Megszem?lyes?t?si szint mez? azt jelzi, hogy milyen m?rt?kben jogosultak a bejelentkez?si munkamenet folyamatai a megszem?lyes?t?sre.
+
+A Hiteles?t?si adatok mez?k r?szletes inform?ci?kkal szolg?lnak az adott bejelentkez?si k?r?sr?l.
+	- A Bejelentkez?si GUID egyedi azonos?t?, amelynek alapj?n ?sszekapcsolhat? az esem?ny egy KDC-esem?nnyel.
+	- A K?ztes szolg?ltat?sok arra utalnak, hogy milyen k?ztes szolg?ltat?sok vettek r?szt ebben a bejelentkez?si k?r?sben.
+	- A Csomagn?v azt jelzi, hogy az NTLM protokollok melyik alprotokollja volt haszn?latban.
+	- A Kulcshossz a gener?lt munkamenetkulcs hossz?ra utal. Ha nem ker?lt sor munkamenetkulcs-k?r?sre, 0 az ?rt?ke."
+"4672"|"2020. 06. 30. 11:03:23"|"Speci?lis jogosults?gok hozz?rendelve az ?j bejelentkez?shez.
+
+T?rgy:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Jogosults?gok:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"4624"|"2020. 06. 30. 11:03:23"|"Egy fi?k sikeresen bejelentkezett.
+
+?rintett:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		DESKTOP-QTDVJG2$
+	Fi?k tartom?nya:		WORKGROUP
+	Bejelentkez?si azonos?t?:		0x3e7
+
+Bejelentkez?s adatai:
+	Bejelentkez?s t?pusa:			5
+	Korl?tozott rendszergazdai m?d:	-
+	Virtu?lis fi?k:		%%1843
+	Emelt szint? jogkivonat:		%%1842
+
+Megszem?lyes?t?si szint:		%%1833
+
+?j bejelentkez?s:
+	Biztons?gi azonos?t?:		S-1-5-18
+	Fi?kn?v:		SYSTEM
+	Fi?k tartom?nya:		NT AUTHORITY
+	Bejelentkez?si azonos?t?:		0x3e7
+	Kapcsolt bejelentkez?s azonos?t?ja:		0x0
+	H?l?zati fi?k neve:	-
+	H?l?zati fi?k tartom?nya:	-
+	Bejelentkez?s GUID azonos?t?ja:		{00000000-0000-0000-0000-000000000000}
+
+Folyamatadatok:
+	Folyamatazonos?t?:		0x308
+	Folyamat neve:		C:\Windows\System32\services.exe
+
+H?l?zati adatok:
+	Munka?llom?s neve:	-
+	Forr?s h?l?zati c?m:	-
+	Forr?sport:		-
+
+R?szletes hiteles?t?si adatok:
+	Bejelentkez?si folyamat:		Advapi  
+	Hiteles?t?si csomag:	Negotiate
+	K?ztes szolg?ltat?sok:	-
+	Csomagn?v (csak NTLM):	-
+	Kulcshossz:		0
+
+Ez az esem?ny a bejelentkez?si munkamenet l?trehoz?sa alkalm?val gener?l?dik. Az el?rt sz?m?t?g?pen j?n l?tre.
+
+Az ?rintett mez?k jelzik a helyi rendszernek azt a fi?kj?t, amely a bejelentkez?st k?rte. Ez leggyakrabban egy szolg?ltat?s, p?ld?ul a Kiszolg?l? szolg?ltat?s, vagy egy helyi folyamat, p?ld?ul a Winlogon.exe vagy a Services.exe.
+
+A Bejelentkez?s t?pusa mez? azt jelzi, hogy milyen bejelentkez?sre ker?lt sor. A leggyakoribb t?pus a 2-es (interakt?v) ?s a 3-as (h?l?zati).
+
+Az ?j bejelentkez?s mez?k azt a fi?kot jelzik, amelynek l?trej?tt az ?j bejelentkez?s, m?s sz?val az a fi?k, amely bejelentkezett.
+
+A H?l?zat mez?k jelzik, hogy honnan ered a t?voli bejelentkez?si k?r?s. A Munka?llom?s neve nem mindig ?rhet? el, ?s egyes esetekben ?resen maradhat.
+
+A Megszem?lyes?t?si szint mez? azt jelzi, hogy milyen m?rt?kben jogosultak a bejelentkez?si munkamenet folyamatai a megszem?lyes?t?sre.
+
+A Hiteles?t?si adatok mez?k r?szletes inform?ci?kkal szolg?lnak az adott bejelentkez?si k?r?sr?l.
+	- A Bejelentkez?si GUID egyedi azonos?t?, amelynek alapj?n ?sszekapcsolhat? az esem?ny egy KDC-esem?nnyel.
+	- A K?ztes szolg?ltat?sok arra utalnak, hogy milyen k?ztes szolg?ltat?sok vettek r?szt ebben a bejelentkez?si k?r?sben.
+	- A Csomagn?v azt jelzi, hogy az NTLM protokollok melyik alprotokollja volt haszn?latban.
+	- A Kulcshossz a gener?lt munkamenetkulcs hossz?ra utal. Ha nem ker?lt sor munkamenetkulcs-k?r?sre, 0 az ?rt?ke."
+"5379"|"2020. 06. 30. 11:03:23"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
+"5379"|"2020. 06. 30. 11:03:23"|"A Hiteles?t?adat-kezel? hiteles?t? adatai beolvasva.
+
+Tulajdonos:
+	Biztons?gi azonos?t?:		S-1-5-21-2006460028-2419262177-1304795473-1001
+	Fi?kn?v:		Akos
+	Fi?ktartom?ny:		DESKTOP-QTDVJG2
+	Bejelentkez?si azonos?t?:		0xcb3aa
+	Olvas?si m?velet:		%%8100
+
+Ez az esem?ny akkor fordul el?, amikor egy felhaszn?l? olvas?si m?veletet hajt v?gre a t?rolt hiteles?t? adatokon a Hiteles?t?adat-kezel?ben."
